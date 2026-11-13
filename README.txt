@@ -1,10 +1,17 @@
-CARET HOMEPAGE HERO REVIEW — STANDALONE GITHUB PAGES SITE
+CARET HOMEPAGE HERO REVIEW
 
-Suggested repository: caret-homepage-hero-review
+Upload all contents into the repository root, replacing matching files, including all ten images.
 
-Create a new repository. Upload the CONTENTS of this package into its root: index.html, script.js, styles.css, .nojekyll, and images/.
-In Settings > Pages, choose Deploy from a branch, main, / (root), then Save.
-The site opens on a text overview. Review order: A, B, G, E, J, C, D, F, H, I.
-All ten original V2 letters and image filenames are preserved.
+Options and filenames now follow the displayed sequence V2A through V2J.
+Script: script.js?v=2. Image cache version: 2. Styles: styles.css?v=1.
 
-This new site starts at script.js?v=1 and styles.css?v=1. For future JavaScript changes, increment the script query sequentially to v=2, v=3, etc. For CSS changes, increment the stylesheet query. If replacing image bytes at the same filename, increment the image version in script.js.
+A Focused work
+B Warm and approachable
+C A personal connection
+D Confident and optimistic
+E Direct and composed
+F Energy and movement
+G Space and possibility
+H A cinematic working session
+I A shared perspective
+J Engaged and connected

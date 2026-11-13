@@ -18,37 +18,10 @@ const options = [
     "height": 6800
   },
   {
-    "id": "v2g",
-    "label": "V2G",
-    "title": "A personal connection",
-    "description": "A candid smile and an off-camera conversation create an easy, welcoming tone. The emphasis is on the person across the table.",
-    "file": "homepage-v2g.png",
-    "width": 1600,
-    "height": 6800
-  },
-  {
-    "id": "v2e",
-    "label": "V2E",
-    "title": "Confident and optimistic",
-    "description": "An upward gaze and warm surroundings create a sense of confidence and possibility. More aspirational than task-focused.",
-    "file": "homepage-v2e.png",
-    "width": 1600,
-    "height": 6800
-  },
-  {
-    "id": "v2j",
-    "label": "V2J",
-    "title": "Direct and composed",
-    "description": "Eye contact gives this option a confident, deliberate presence. The striped shirt brings green into a restrained office setting.",
-    "file": "homepage-v2j.png",
-    "width": 1600,
-    "height": 6800
-  },
-  {
     "id": "v2c",
     "label": "V2C",
-    "title": "Energy and movement",
-    "description": "A more abstract approach, with people moving through a bright, open scene. The yellow creates energy, though it moves beyond the core CARET palette.",
+    "title": "A personal connection",
+    "description": "A candid smile and an off-camera conversation create an easy, welcoming tone. The emphasis is on the person across the table.",
     "file": "homepage-v2c.png",
     "width": 1600,
     "height": 6800
@@ -56,26 +29,44 @@ const options = [
   {
     "id": "v2d",
     "label": "V2D",
-    "title": "Space and possibility",
-    "description": "A light, architectural approach with people set within a mint-toned environment. Airy and stylized, with the setting doing much of the storytelling.",
+    "title": "Confident and optimistic",
+    "description": "An upward gaze and warm surroundings create a sense of confidence and possibility. More aspirational than task-focused.",
     "file": "homepage-v2d.png",
+    "width": 1600,
+    "height": 6800
+  },
+  {
+    "id": "v2e",
+    "label": "V2E",
+    "title": "Direct and composed",
+    "description": "Eye contact gives this option a confident, deliberate presence. The striped shirt brings green into a restrained office setting.",
+    "file": "homepage-v2e.png",
     "width": 1600,
     "height": 6800
   },
   {
     "id": "v2f",
     "label": "V2F",
-    "title": "A cinematic working session",
-    "description": "A darker, more atmospheric view of people working together. The green tones connect to the brand, while the lighting creates a more dramatic mood.",
+    "title": "Energy and movement",
+    "description": "A more abstract approach, with people moving through a bright, open scene. The yellow creates energy, though it moves beyond the core CARET palette.",
     "file": "homepage-v2f.png",
+    "width": 1600,
+    "height": 6800
+  },
+  {
+    "id": "v2g",
+    "label": "V2G",
+    "title": "Space and possibility",
+    "description": "A light, architectural approach with people set within a mint-toned environment. Airy and stylized, with the setting doing much of the storytelling.",
+    "file": "homepage-v2g.png",
     "width": 1600,
     "height": 6800
   },
   {
     "id": "v2h",
     "label": "V2H",
-    "title": "A shared perspective",
-    "description": "An overhead view puts the group and its shared work at the center. Collaborative and composed, with the green seating anchoring the palette.",
+    "title": "A cinematic working session",
+    "description": "A darker, more atmospheric view of people working together. The green tones connect to the brand, while the lighting creates a more dramatic mood.",
     "file": "homepage-v2h.png",
     "width": 1600,
     "height": 6800
@@ -83,9 +74,18 @@ const options = [
   {
     "id": "v2i",
     "label": "V2I",
+    "title": "A shared perspective",
+    "description": "An overhead view puts the group and its shared work at the center. Collaborative and composed, with the green seating anchoring the palette.",
+    "file": "homepage-v2i.png",
+    "width": 1600,
+    "height": 6800
+  },
+  {
+    "id": "v2j",
+    "label": "V2J",
     "title": "Engaged and connected",
     "description": "A bright, engaged expression brings the interaction into focus. The mint shirt and green setting make this a strong fit for the CARET palette.",
-    "file": "homepage-v2i.png",
+    "file": "homepage-v2j.png",
     "width": 1600,
     "height": 6800
   }
@@ -115,7 +115,7 @@ function show() {
     mockup.alt = 'CARET homepage ' + option.label + ': ' + option.title;
     mockup.width = option.width;
     mockup.height = option.height;
-    mockup.src = 'images/' + option.file + '?v=1';
+    mockup.src = 'images/' + option.file + '?v=2';
     const previous = document.getElementById('previous');
     previous.href = index ? '#' + options[index - 1].id : '#overview';
     previous.textContent = index ? '← Previous' : '← Overview';
