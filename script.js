@@ -65,8 +65,8 @@ const options = [
   {
     "id": "v2h",
     "label": "V2H",
-    "title": "A cinematic working session",
-    "description": "A darker, more atmospheric view of people working together. The green tones connect to the brand, while the lighting creates a more dramatic mood.",
+    "title": "Movement in the CARET palette",
+    "description": "Building on the energy and movement of V2F that Vicki liked, this option brings the scene into the CARET palette. Mint green and an orange accent retain the abstract feel while creating a closer connection to the brand.",
     "file": "homepage-v2h.png",
     "width": 1600,
     "height": 6800
@@ -74,8 +74,8 @@ const options = [
   {
     "id": "v2i",
     "label": "V2I",
-    "title": "A shared perspective",
-    "description": "An overhead view puts the group and its shared work at the center. Collaborative and composed, with the green seating anchoring the palette.",
+    "title": "A cinematic working session",
+    "description": "A darker, more atmospheric view of people working together. The green tones connect to the brand, while the lighting creates a more dramatic mood.",
     "file": "homepage-v2i.png",
     "width": 1600,
     "height": 6800
@@ -83,9 +83,18 @@ const options = [
   {
     "id": "v2j",
     "label": "V2J",
+    "title": "A shared perspective",
+    "description": "An overhead view puts the group and its shared work at the center. Collaborative and composed, with the green seating anchoring the palette.",
+    "file": "homepage-v2j.png",
+    "width": 1600,
+    "height": 6800
+  },
+  {
+    "id": "v2k",
+    "label": "V2K",
     "title": "Engaged and connected",
     "description": "A bright, engaged expression brings the interaction into focus. The mint shirt and green setting make this a strong fit for the CARET palette.",
-    "file": "homepage-v2j.png",
+    "file": "homepage-v2k.png",
     "width": 1600,
     "height": 6800
   }
@@ -115,7 +124,7 @@ function show() {
     mockup.alt = 'CARET homepage ' + option.label + ': ' + option.title;
     mockup.width = option.width;
     mockup.height = option.height;
-    mockup.src = 'images/' + option.file + '?v=2';
+    mockup.src = 'images/' + option.file + '?v=4';
     const previous = document.getElementById('previous');
     previous.href = index ? '#' + options[index - 1].id : '#overview';
     previous.textContent = index ? '← Previous' : '← Overview';
